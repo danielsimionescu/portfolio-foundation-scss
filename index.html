@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Daniel Simionescu | Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <div class="callout large text-center">
+                <h1>Daniel Simionescu</h1>
+                <p>My personal <strong>portfolio</strong> built with Foundation v.6.5.3.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell">
+                <ul class="tabs" data-tabs id="example-tabs">
+                    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">About</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Skills</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">Work</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">Education</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel5" href="#panel5">Projects</a></li>
+                    <li class="tabs-title"><a data-tabs-target="panel6" href="#panel6">Contact</a></li>
+                </ul>
+                
+                <div class="tabs-content" data-tabs-content="example-tabs">
+                    <div class="tabs-panel is-active" id="panel1">
+                        <div class="grid-container">
+                            <h2>About</h2>
+                            <div class="grid-x">
+                                <div class="cell medium-4 small-12">
+                                    <img id="portrait-img" class="thumbnail" src="assets/portrait.jpg" alt="My portrait">
+                                </div>
+                                <div class="cell medium-8 small-12" style="padding-left: 15px;">
+                                    <p>
+                                        Let me introduce myself:
+                                    </p>
+                                    <p>
+                                        My name is Daniel!
+                                    </p>
+                                    <p>
+                                        I'm a <span id="age"></span> year old currently studying at <a href="https://www.zealand.dk" target="_blank">Zealand</a> in <a href="https://www.google.com/maps/place/roskilde/" target="_blank">Roskilde</a>, Denmark.
+                                    </p>
+                                    <p>
+                                        I'm a <strong>Full-Stack Developer</strong>:
+                                        <ul>
+                                            <li>Frontend: Angular and Vue.js;</li>
+                                            <li>Backend: ASP.NET Core.</li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        Find me here:
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/daniel-simionescu/" target="_blank">LinkedIn</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/danielsimionescu" target="_blank">GitHub</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.youtube.com/channel/UCPIe87uLDW-QZ5FnUZqdxoA" target="_blank">YouTube</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://codepen.io/danielsimi" target="_blank">CodePen</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://stackoverflow.com/users/9824013/daniel-simionescu" target="_blank">StackOverflow</a>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        To know more, have a look at the other tabs :)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel2">
+                        <div class="grid-container">
+                            <h2>Skills</h2>
+                            <p>
+                                These are the skills that best describe me:
+                            </p>
+                            <ul class="vertical menu">
+                                <li><strong>ASP.NET Core 2.2</strong> (C#, LINQ, Entity Framework, Razor, AJAX, xUnit, Moq)</li>
+                                <li><strong>Node.js</strong> (JavaScript, Express, GraphQL, Electron.js)</li>
+                                <li><strong>Angular 2+ (2..8)</strong> (TypeScript, JavaScript, RxJS, NgRx)</li>
+                                <li><strong>Vue 2</strong> (Vuex, Vuetify, Vuepress, Mocha, ESNext)</li>
+                                <li><strong>CSS Frameworks </strong> (Bootstrap, Foundation, Material Design)</li>
+                                <li><strong>SQL</strong> (MySQL, MSSQL, SQLite) and <strong>NoSQL</strong> (CosmosDB, Firebase, Mongo)</li>
+                                <li><strong>Project Management</strong> (Scrum, Agile, UML, Design Sprints)</li>
+                                <li><strong>Git</strong> (GitHub, Bitbucket)</li>
+                                <li><strong>Programming Tools</strong> (Visual Studio, Visual Studio Code, SQL Server Management Studio)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel3">
+                        <div class="grid-container">
+                            <h2>Work</h2>
+                            <p>
+                                This is my <strong>work experience</strong> that I have accumulated over the past <strong>3 years</strong>:
+                            </p>
+                            <ul class="accordion" data-accordion role="tablist">
+                                <li class="accordion-item is-active" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">Oracle &ndash; Application Consultant</a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/oracle.png" alt="Oracle">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: April 2019 &ndash; May 2019. <br>
+                                            <strong>Duration</strong>: 2 months. <br>
+                                            <strong>Location</strong>: Bucharest, Romania. <br>
+                                            <strong>Website</strong>: <a href="https://www.oracle.com/index.html">https://www.oracle.com/</a>
+                                        </p>
+                                        <p>
+                                            Part of the <strong>Global Health Sciences Team</strong> concerned with building applications for the pharmaceutical sector (life science/healthcare).
+                                            <p>
+                                                As a <strong>C#/.NET Developer</strong>, I was responsible for:
+                                                <ul>
+                                                    <li>developing web/phone-based application for clinical trial management (patient enrollment, randomization, drug supply and reconciliation);</li>
+                                                    <li>working with clients to gather functional and technical requirements;</li>
+                                                    <li>participating/leading technical training sessions;</li>
+                                                    <li>writing detailed technical specifications;</li>
+                                                    <li>working collaboratively in a global team.</li>
+                                                </ul>
+                                            </p>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="accordion-item" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">EuroForm A/S &ndash; Software Developer</a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/euroform.png" alt="EuroForm A/S">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: October 2015 &ndash; September 2017. <br>
+                                            <strong>Duration</strong>: 2 years. <br>
+                                            <strong>Location</strong>: Smoerum/Ballerup (Copenhagen), Denmark. <br>
+                                            <strong>Website</strong>: <a href="https://euroform.com/">https://euroform.com/</a>
+                                        </p>
+                                        <p>
+                                            Charged with the design, development and testing of several software components which are part of the <a href="https://jetadvice.com/products/premium/" target="_blank">JetAdvice Premium</a> product.
+                                        </p>
+                                        <p>
+                                            As a <strong>Lead Developer</strong> for JetAdvice Premium, I built:
+                                            <ul>
+                                                <li>a generic reporting service, that is able to merge <i>&ldquo;any HTML template&rdquo;</i> with a set of corresponding data;</li>
+                                                <li>a service that fetches the required data for JetAdvice Premium reports and forwards it to the first service;</li>
+                                                <li>a web portal where existing users are able to log in and order a report.</li>
+                                            </ul>
+                                        </p>
+                                        <p>
+                                            For the recommendation letter, please contact me.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="accordion-item" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">Zealand &ndash; Student Assistant</a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/zealand.gif" alt="Zealand">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: September 2016 &ndash; February 2017. <br>
+                                            <strong>Duration</strong>: 6 months. <br>
+                                            <strong>Location</strong>: Roskilde, Denmark. <br>
+                                            <strong>Website</strong>: <a href="https://www.zealand.dk/">https://www.zealand.dk/</a>
+                                        </p>
+                                        <p>
+                                            Helped students from 2<sup>nd</sup> and 3<sup>rd</sup> semesters better understand <strong>.NET programming</strong> and some related frameworks:
+                                            <ul>
+                                                <li>C#</li>
+                                                <li>Entity Framework</li>
+                                                <li>REST Web Services</li>
+                                                <li>LINQ</li>
+                                                <li>Universal Windows Platform (UWP) Apps</li>
+                                            </ul>
+                                        </p>
+                                        <p>
+                                            For the recommendation letter, please contact me.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel4">
+                        <div class="grid-container">
+                            <h2 class="text-left">Education</h2>
+                            <p>
+                                Here are all the educational institutions and the degrees I've attended:
+                            </p>
+                            <ul class="accordion" data-accordion role="tablist">
+                                <li class="accordion-item is-active" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">
+                                        Zealand Sjællands Erhvervsakademi &ndash; BPA (Top-UP) Degree in Web Development
+                                    </a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/zealand.gif" alt="Zealand">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: 2019 &ndash; 2021 (on-going) <br>
+                                            <strong>Duration</strong>: 1&#189; years. <br>
+                                            <strong>Location</strong>: Roskilde, Denmark. <br>
+                                            <strong>Website</strong>: <a href="https://www.zealand.dk/">https://www.zealand.dk/</a>
+                                        </p>
+                                        <p>
+                                            These are the main subjects/topics to be learned per semester:
+                                            <ol>
+                                                <li>Angular 2+, RxJS, Firebase, Scrum, Design Sprints, Bootstrap, Foundation, Sass, Wordpress, Umbraco, User Interface Design;</li>
+                                            </ol>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="accordion-item" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">
+                                        Zealand Sjællands Erhvervsakademi &ndash; AP Degree in Computer Science
+                                    </a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/zealand.gif" alt="Zealand">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: 2015 &ndash; 2018. <br>
+                                            <strong>Duration</strong>: 2&#189; years. <br>
+                                            <strong>Location</strong>: Roskilde, Denmark. <br>
+                                            <strong>Website</strong>: <a href="https://www.zealand.dk/">https://www.zealand.dk/</a>
+                                        </p>
+                                        <p>
+                                            These are the main subjects/topics learned per semester:
+                                            <ol>
+                                                <li>Object-Oriented Programming in C#, Universal Windows Platform (UWP) Apps, VS, VSCode, Git, GitHub;</li>
+                                                <li>REST APIs, MVC, LINQ, Entity Framework, SQL;</li>
+                                                <li>Networking, Web Services (SOAP, WCF, WPF), ASP.NET Core, Scrum, Agile, RUP, UML, MSSQL, Azure;</li>
+                                                <li>Angular, MEAN Stack (Mongo, Express, Angular, Node), HTML, CSS, JavaScript, jQuery, Firebase;</li>
+                                                <li>Internship at <a href="https://euroform.com/" target="_blank">EuroForm A/S</a> (C#, ASP.NET MVC, JavaScript).</li>
+                                            </ol>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="accordion-item" data-accordion-item role="presentation">
+                                    <a href="#" class="accordion-title" role="tab">
+                                        Dumitru Dumitrescu Technological High School &ndash; Mathematics and Informatics
+                                    </a>
+                                    <div class="accordion-content" data-tab-content>
+                                        <span class="card-body-image">
+                                            <img class="img-fluid" src="assets/ddb.png" alt="High School">
+                                        </span>
+                                        <p>
+                                            <strong>Period</strong>: 2011 &ndash; 2015. <br>
+                                            <strong>Duration</strong>: 4 years. <br>
+                                            <strong>Location</strong>: Buftea (Bucharest), Romania. <br>
+                                            <strong>Website</strong>: <a href="http://ddbuftea.ro/">http://ddbuftea.ro/</a>
+                                        </p>
+                                        <p>
+                                            Obtained a certificate of <strong>Assistant Programmer Analyst</strong>.
+                                        </p>
+                                        <p>
+                                            Gratuated with a Baccalaureate Diploma.
+                                        </p>
+                                        <p>
+                                            Top subjects: Computer Science / Informatics (C++, SQL, HTML, CSS), Mathematics, Physics, Chemistry, Biology, English.
+                                        </p>
+                                        <p>
+                                            <strong>ECDL</strong> &ndash; European Computer Driving License (Microsoft Office 2015):
+                                            <ul>
+                                                <li>Word Processing</li>
+                                                <li>Computer Essentials</li>
+                                                <li>Online Essentials</li>
+                                                <li>Presentation</li>
+                                                <li>Access (Databases)</li>
+                                                <li>Spreadsheets</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel5">
+                        <div class="grid-container">
+                            <h2>Projects</h2>
+                            <p>
+                                Here are some <strong>publicly</strong> available projects that I have worked on:
+                            </p>
+                            <div class="card">
+                                <div class="card-divider align-center">
+                                    Angular
+                                </div>
+                                <div class="card-section text-center">
+                                    <h4>Threesell</h4>
+                                    <p>Sell your product with three pictures.</p>
+                                    <p>This web app was made with <strong>Angular 8, Firebase, Algolia, Material Design</strong>.</p>
+                                    <a href="https://threesell-44de9.web.app/" class="button" target="_blank">Live</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-divider align-center">
+                                    Open-source library
+                                </div>
+                                <div class="card-section text-center">
+                                    <h4>Personal Portfolio</h4>
+                                    <p>My personal portfolio showing my work experience, education and projects.</p>
+                                    <p>This static website was made with <strong>Bootstrap v.4</strong>.</p>
+                                    <p>
+                                        <a href="https://danielsimionescu.netlify.com/" class="button primary" target="_blank">Live</a>
+                                        <a href="https://github.com/danielsimionescu/portfolio-bootstrap" class="button primary" target="_blank">Repo</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-divider align-center">
+                                    Third-party platform
+                                </div>
+                                <div class="card-section text-center">
+                                    <h4>YouTube Channel</h4>
+                                    <p>My personal channel with <strong>37 videos</strong> teaching C# and JavaScript concepts.</p>
+                                    <a href="https://www.youtube.com/channel/UCPIe87uLDW-QZ5FnUZqdxoA" class="button primary" target="_blank">YouTube</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-divider align-center">
+                                    Open-source library
+                                </div>
+                                <div class="card-section text-center">
+                                    <h4>Personal Blog</h4>
+                                    <p>Tutorials as blog articles about various C# and JavaScript topics.</p>
+                                    <p>This static website was made with: <strong>Vue.js</strong>, <strong>Vuepress</strong> and <strong>Markdown</strong>.</p>
+                                    <p>
+                                        <a href="https://danielsimionescu.com/" class="button primary" target="_blank">Live</a>
+                                        <a href="https://github.com/danielsimionescu/website" class="button secondary" target="_blank">Repo</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-divider align-center">
+                                    Vue.js
+                                </div>
+                                <div class="card-section text-center">
+                                    <h4>Randomizer</h4>
+                                    <p>A tiny Web App that composes a random stack of frameworks and languages for fun.</p>
+                                    <p>This was made with: <strong>Vue.js</strong> and <strong>Vuetify</strong>.</p>
+                                    <p>
+                                        <a href="https://framework-randomizer.netlify.com/" class="button primary" target="_blank">Live</a>
+                                        <a href="https://github.com/danielsimionescu/randomizer" class="button secondary" target="_blank">Repo</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel6">
+                        <div class="grid-container">
+                            <h2>Contact me</h2>
+                            <p>
+                                For business enquiries, feel free to contact me:
+                            </p>
+                            <form action="https://formspree.io/danielsimionescu1996@gmail.com" method="POST">
+                                <div>
+                                    <label for="name">
+                                        Name
+                                        <input name="name" type="text" id="name" aria-describedby="name" placeholder="Enter your name" required>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label for="email">
+                                        Email address
+                                        <input name="email" type="email" id="email" aria-describedby="email" placeholder="Enter your email" required>
+                                    </label>
+                                    <p id="emailHelp" class="help-text">I'll never share your email with anyone else.</p>
+                                </div>
+                                <div>
+                                    <label for="message">
+                                        Message
+                                        <textarea name="message" id="message" rows="3" placeholder="Type your message..." required></textarea>
+                                    </label>
+                                    <p class="help-text">
+                                        Powered by <a href="https://formspree.io/" target="_blank">Formspree.io</a>.
+                                    </p>
+                                </div>
+                                <button type="submit" class="button primary">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-x">
+        <div class="cell">
+            <footer style="text-align: center; margin-top: 30px; margin-bottom: 10px;">
+                &copy; 2019 Daniel Simionescu All Rights Reserved
+            </footer>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

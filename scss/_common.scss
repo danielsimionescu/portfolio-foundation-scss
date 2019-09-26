@@ -1,0 +1,16 @@
+$calloutBackgroundColor: #e9ecef;
+$menuBorderColor: rgba(0,0,0,.125);
+
+header .callout {
+    background-color: $calloutBackgroundColor;
+}
+
+.card-body-image img {
+    height: 60px;
+    float: right;
+}
+
+.menu li {
+    padding: 10px 0;
+    border-top: 1px solid $menuBorderColor;
+}
